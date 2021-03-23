@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("IMG/pexels-george-desipris-748626.jpg");
+    background-size: cover;
+    width: 90vw;
+    height: 90vh;
+}
+
+#blocoCentral {
+    width: 70vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.089);
+    margin-left: 16.7%;
+    margin-top: 5%;
+    border-radius: 2em;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#sair {
+    width: 55px;
+    height: 20px;
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(17, 17, 17, 0.459);
+    border-radius: 3em;
+    border: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#sair:hover {
+    background-color: red;
+}
+
+.botao {
+    margin: 1em;
+}
+
+.botaoVoltar {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 62%;
+    margin-top: 2%;
+    padding-right: 2%;
+}
+
+div i {
+    display: inline-block;
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+fieldset {
+    border: 0;
+}
+
+#nome {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 300px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#nascimento {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#sexo {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 80px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#bairro {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 150px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#telefone {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 140px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#cpf {
+    margin-top: 1em;
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 140px;
+    height: 25px;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+label {
+    color: white;
+    margin: 3%;
+}
+
+#submit {
+    background: rgb(72, 124, 72);
+    color: rgba(255, 255, 255, 0.733);
+    border: none;
+    border-radius: 1em;
+    width: 80px;
+    height: 25px;
+    margin-top: 2%;
+}

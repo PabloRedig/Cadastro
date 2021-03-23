@@ -4,18 +4,63 @@
 }
 
 body {
-    background-image: url("IMG/zero-take-Bnqi3VPs4so-unsplash.jpg");
+    background-image: url("IMG/pexels-george-desipris-748626.jpg");
+    background-size: cover;
+    width: 90vw;
+    height: 90vh;
 }
 
 #blocoCentral {
-    margin: 10ch;
-    background-color: #18e9cd9d;
+    width: 70vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-left: 16.7%;
+    margin-top: 5%;
+    border-radius: 2em;
+}
+
+menu {
+    margin-left: 15%;
+    background: white;
 }
 
 li {
     float: left;
+    list-style-type: none;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#sair {
+    width: 55px;
+    height: 20px;
+    margin-left: 56%;
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(17, 17, 17, 0.459);
+    border-radius: 3em;
+    border: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#sair:hover {
+    background-color: red;
 }
 
 .botao {
     margin: 1em;
+}
+
+div i {
+    display: inline-block;
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
 }

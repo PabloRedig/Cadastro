@@ -5,12 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=" CSS/PaginaCadastro.css ">
     <title>Cadastro</title>
 </head>
 
 <body>
+    <div id="blocoCentral">
+        <div class="#menu">
+            <li>
+                <a class="botao" href="PaginaConsulta.html">Consultar</a>
+            </li>
+            <li>
+                <a class="botao" href="PaginaAlterar.html">Alterar</a>
+            </li>
+            <a class="botaoVoltar" href="PaginaPrincipal.html">Voltar</a>
+            <input type="button" id="sair" value="Sair">
+        </div>
+        <div>
+            <i>Seja Bem-Vindo, *NOME DO USUARIO*.</i>
 
-    <h1>cadastro</h1>
+            <form>
+                <fieldset>
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text">
+
+                    <label for="nascimento">Data de Nascimento: </label>
+                    <input id="nascimento" type="text">
+
+                    <label for="sexo">Sexo:</label>
+                    <input id="sexo" type="text">
+                    <br>
+                    <label for="bairro">Bairro: </label>
+                    <input id="bairro" type="text">
+
+                    <label for="telefone">Telefone: </label>
+                    <input id="telefone" type="text">
+
+                    <label for="CPF">CPF: </label>
+                    <input id="cpf" type="text">
+
+                    <label for=""></label>
+                    <br>
+                    <input type="Submit" id="submit" value="Cadastrar">
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
