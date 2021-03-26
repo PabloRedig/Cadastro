@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("IMG/pexels-george-desipris-748626.jpg");
+    background-image: url("IMG/ocean-1867285_1920.jpg");
     background-size: cover;
     width: 90vw;
     height: 90vh;
@@ -13,7 +13,7 @@ body {
 #blocoCentral {
     width: 70vw;
     height: 80vh;
-    background-color: rgba(255, 255, 255, 0.089);
+    background-color: rgba(255, 255, 255, 0.247);
     margin-left: 16.7%;
     margin-top: 5%;
     border-radius: 2em;
@@ -27,7 +27,7 @@ li {
 }
 
 li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ li a {
 }
 
 .botaoVoltar {
-    color: white;
+    color: black;
     text-decoration: none;
     display: inline-block;
     margin-left: 62%;
@@ -63,7 +63,7 @@ li a {
 
 div i {
     display: inline-block;
-    color: white;
+    color: black;
     margin-top: 3%;
     margin-left: 10%;
 }
@@ -73,86 +73,92 @@ fieldset {
 }
 
 #nome {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
     width: 300px;
     height: 25px;
-    color: white;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 #nascimento {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
     width: 100px;
     height: 25px;
-    color: white;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 #sexo {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
-    width: 80px;
+    width: 100px;
     height: 25px;
-    color: white;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 #bairro {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
     width: 150px;
     height: 25px;
-    color: white;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 #telefone {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
     width: 140px;
     height: 25px;
-    color: white;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 #cpf {
-    margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
     margin-top: 2em;
     margin-left: -25px;
     width: 140px;
     height: 25px;
-    color: white;
+    color: black;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#endereco {
+    border: none;
+    background: rgba(12, 12, 12, 0.205);
+    margin-top: 2em;
+    margin-left: -25px;
+    width: 140px;
+    height: 25px;
+    color: black;
     border-radius: 1em;
     text-align: center;
 }
 
 label {
-    color: white;
-    margin: 3%;
+    color: rgb(92, 90, 90);
+    margin: 1.5em;
 }
 
 #submit {
@@ -160,7 +166,8 @@ label {
     color: rgba(255, 255, 255, 0.733);
     border: none;
     border-radius: 1em;
-    width: 80px;
-    height: 25px;
-    margin-top: 2%;
+    width: 100px;
+    height: 30px;
+    margin-top: 2em;
+    margin-left: 4em;
 }

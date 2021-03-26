@@ -15,9 +15,7 @@
             <li>
                 <a class="botao" href="PaginaConsulta.html">Consultar</a>
             </li>
-            <li>
-                <a class="botao" href="PaginaAlterar.html">Alterar</a>
-            </li>
+
             <a class="botaoVoltar" href="PaginaPrincipal.html">Voltar</a>
             <input type="button" id="sair" value="Sair">
         </div>
@@ -33,10 +31,16 @@
                     <input id="nascimento" type="text">
 
                     <label for="sexo">Sexo:</label>
-                    <input id="sexo" type="text">
+                    <select name="sexo" id="sexo">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
                     <br>
                     <label for="bairro">Bairro: </label>
                     <input id="bairro" type="text">
+
+                    <label for="endereco">Endereço: </label>
+                    <input id="endereco" type="text">
 
                     <label for="telefone">Telefone: </label>
                     <input id="telefone" type="text">
@@ -44,7 +48,6 @@
                     <label for="CPF">CPF: </label>
                     <input id="cpf" type="text">
 
-                    <label for=""></label>
                     <br>
                     <input type="Submit" id="submit" value="Cadastrar">
                 </fieldset>

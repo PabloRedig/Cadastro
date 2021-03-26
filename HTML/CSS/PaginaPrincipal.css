@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("IMG/pexels-george-desipris-748626.jpg");
+    background-image: url("IMG/ocean-1867285_1920.jpg");
     background-size: cover;
     width: 90vw;
     height: 90vh;
@@ -21,7 +21,6 @@ body {
 
 menu {
     margin-left: 15%;
-    background: white;
 }
 
 li {
@@ -32,14 +31,14 @@ li {
 }
 
 li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 #sair {
     width: 55px;
     height: 20px;
-    margin-left: 56%;
+    margin-left: 65%;
     margin-top: 2%;
     color: white;
     text-decoration: none;
@@ -60,7 +59,7 @@ li a {
 
 div i {
     display: inline-block;
-    color: white;
+    color: black;
     margin-top: 5%;
     margin-left: 10%;
 }
