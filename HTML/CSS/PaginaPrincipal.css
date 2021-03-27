@@ -17,6 +17,7 @@ body {
     margin-left: 16.7%;
     margin-top: 5%;
     border-radius: 2em;
+    text-align: center;
 }
 
 menu {
@@ -35,13 +36,16 @@ li a {
     text-decoration: none;
 }
 
+#sair a {
+    text-decoration: none;
+    color: white;
+}
+
 #sair {
     width: 55px;
     height: 20px;
     margin-left: 65%;
     margin-top: 2%;
-    color: white;
-    text-decoration: none;
     background-color: rgba(17, 17, 17, 0.459);
     border-radius: 3em;
     border: 0;
@@ -61,5 +65,11 @@ div i {
     display: inline-block;
     color: black;
     margin-top: 5%;
-    margin-left: 10%;
+}
+
+img {
+    width: 90%;
+    margin-top: 6em;
+    margin-left: -1.5em;
+    opacity: 50%;
 }

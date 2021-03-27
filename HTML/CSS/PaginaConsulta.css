@@ -17,6 +17,7 @@ body {
     margin-left: 16.7%;
     margin-top: 5%;
     border-radius: 2em;
+    text-align: center;
 }
 
 li {
@@ -67,8 +68,7 @@ li a {
 div i {
     display: inline-block;
     color: black;
-    margin-top: 3%;
-    margin-left: 10%;
+    margin: 3%;
 }
 
 fieldset {
@@ -79,8 +79,6 @@ fieldset {
     margin-top: 1em;
     border: none;
     background: rgba(12, 12, 12, 0.205);
-    margin-top: 2em;
-    margin-left: -25px;
     width: 400px;
     height: 25px;
     color: black;
@@ -90,7 +88,6 @@ fieldset {
 
 label {
     color: black;
-    margin: 3%;
 }
 
 #submit {
@@ -103,6 +100,20 @@ label {
 }
 
 #ResultadoConsulta {
-    margin-left: 1em;
+    margin-top: 2em;
+    background: rgba(0, 0, 0, 0.322);
+    border-radius: 3em;
+    width: 1000px;
+    height: 350px;
+    margin-left: 1.5em;
+    display: inline-block;
+}
+
+#imagenLogo {
+    width: 400;
     margin-top: 1em;
+    margin-left: 1.5em;
+    opacity: 25%;
+    position: relative;
+    bottom: 350px;
 }
