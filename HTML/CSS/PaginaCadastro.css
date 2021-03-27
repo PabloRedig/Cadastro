@@ -6,14 +6,12 @@
 body {
     background-image: url("IMG/ocean-1867285_1920.jpg");
     background-size: cover;
-    width: 90vw;
-    height: 90vh;
 }
 
 #blocoCentral {
     width: 70vw;
     height: 80vh;
-    background-color: rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.11);
     margin-left: 16.7%;
     margin-top: 5%;
     border-radius: 2em;
@@ -42,10 +40,16 @@ li a {
     border: 0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    outline: none;
 }
 
 #sair:hover {
     background-color: red;
+}
+
+#sair a {
+    text-decoration: none;
+    color: white;
 }
 
 .botao {
@@ -56,16 +60,30 @@ li a {
     color: black;
     text-decoration: none;
     display: inline-block;
-    margin-left: 62%;
+    margin-left: 73%;
     margin-top: 2%;
     padding-right: 2%;
+    outline: none;
 }
 
 div i {
     display: inline-block;
     color: black;
-    margin-top: 3%;
-    margin-left: 10%;
+    margin-top: 4.5%;
+    margin-left: 36%;
+}
+
+#imagemLogo {
+    opacity: 15%;
+    position: relative;
+    top: 7%;
+    margin-left: 2.4em;
+}
+
+#formulario {
+    position: relative;
+    bottom: 48%;
+    margin-left: 3%;
 }
 
 fieldset {
@@ -82,6 +100,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #nascimento {
@@ -94,6 +113,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #sexo {
@@ -106,6 +126,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #bairro {
@@ -118,6 +139,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #telefone {
@@ -130,6 +152,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #cpf {
@@ -142,6 +165,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 #endereco {
@@ -154,6 +178,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 label {
@@ -169,5 +194,6 @@ label {
     width: 100px;
     height: 30px;
     margin-top: 2em;
-    margin-left: 4em;
+    margin-left: 5.5em;
+    outline: none;
 }

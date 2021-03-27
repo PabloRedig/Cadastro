@@ -6,8 +6,6 @@
 body {
     background-image: url("IMG/ocean-1867285_1920.jpg");
     background-size: cover;
-    width: 90vw;
-    height: 90vh;
 }
 
 #blocoCentral {
@@ -15,7 +13,7 @@ body {
     height: 80vh;
     background-color: rgba(255, 255, 255, 0.11);
     margin-left: 16.7%;
-    margin-top: 5%;
+    margin-top: -17.3%;
     border-radius: 2em;
     text-align: center;
 }
@@ -43,10 +41,16 @@ li a {
     border: 0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    outline: none;
 }
 
 #sair:hover {
     background-color: red;
+}
+
+#sair a {
+    text-decoration: none;
+    color: white;
 }
 
 .botao {
@@ -84,6 +88,7 @@ fieldset {
     color: black;
     border-radius: 1em;
     text-align: center;
+    outline: none;
 }
 
 label {
@@ -97,6 +102,7 @@ label {
     border-radius: 1em;
     width: 80px;
     height: 25px;
+    outline: none;
 }
 
 #ResultadoConsulta {
@@ -106,14 +112,13 @@ label {
     width: 1000px;
     height: 350px;
     margin-left: 1.5em;
-    display: inline-block;
 }
 
 #imagenLogo {
-    width: 400;
+    width: 200;
     margin-top: 1em;
-    margin-left: 1.5em;
+    margin-left: 19.5%;
     opacity: 25%;
     position: relative;
-    bottom: 350px;
+    top: 265px;
 }

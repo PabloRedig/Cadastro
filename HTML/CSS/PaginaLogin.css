@@ -38,6 +38,7 @@ input {
     width: 150px;
     height: 30px;
     text-align: center;
+    outline: none;
 }
 
 #botaoEntrar {
@@ -48,6 +49,7 @@ input {
     border-radius: 3em;
     margin-top: 3em;
     margin-left: 10.5em;
+    outline: none;
 }
 
 #botaoEntrar a {

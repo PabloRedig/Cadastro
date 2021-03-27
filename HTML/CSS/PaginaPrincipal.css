@@ -6,8 +6,6 @@
 body {
     background-image: url("IMG/ocean-1867285_1920.jpg");
     background-size: cover;
-    width: 90vw;
-    height: 90vh;
 }
 
 #blocoCentral {
@@ -51,6 +49,7 @@ li a {
     border: 0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    outline: none;
 }
 
 #sair:hover {
@@ -69,7 +68,7 @@ div i {
 
 img {
     width: 90%;
-    margin-top: 6em;
+    margin-top: 4.5em;
     margin-left: -1.5em;
     opacity: 50%;
 }
