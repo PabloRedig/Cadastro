@@ -6,38 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href=" CSS/PaginaConsulta.css ">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
     <title>Consultar</title>
 </head>
 
 <body>
-    <div id="imagenLogo">
-        <img src="CSS/IMG/topo_logo2.png" alt="ERRO">
-    </div>
-    <div id="blocoCentral">
-        <div>
-            <li>
-                <a class="botao" href=" PaginaCadastro.html ">Cadastrar</a>
-            </li>
-            <a class="botaoVoltar" href="PaginaPrincipal.html">Voltar</a>
-            <button id="sair">
-                <a href="PaginaLogin.html">Sair</a>
-            </button>
-        </div>
-        <div>
-            <i>Seja Bem-Vindo, *NOME DO USUARIO*.</i>
+    <nav>
+        <div id="blocoGeral">
 
-            <br>
-            <label for="nome">Consulta: </label>
-            <input class="informacao" type="text">
-            <input type="Submit" id="submit" value="Consultar">
-
-            <div id="ResultadoConsulta">
-                <h1>teste</h1>
-                <h1>teste</h1>
-                <h1>teste</h1>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="PaginaCadastro.html">Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="PaginaPrincipal.html">Voltar</a>
+                    </li>
+                    <button id="sair">
+                        <a href="PaginaLogin.html">Sair</a>
+                    </button>
+                </ul>
             </div>
+
+
+            <img id="imgLogo" src="CSS/IMG/topo_logo2.png" alt="Erro...">
+
+
+            <div id="form">
+                <div id="pesquisa">
+                    <i class="fas fa-search"></i>
+                    <input type="search" name="pesquisar" id="pesquisar" placeholder="Digite uma Informação do Paciente">
+                    <input type="submit" name="busca" id="buscar" value="Pesquisar">
+                </div>
+
+                <div id="resultado">
+                    <h1>*RESULTADO PACIENTE*</h1>
+                    <h1>*RESULTADO PACIENTE*</h1>
+                    <h1>*RESULTADO PACIENTE*</h1>
+                </div>
+            </div>
+
         </div>
-    </div>
+    </nav>
 </body>
 
 </html>

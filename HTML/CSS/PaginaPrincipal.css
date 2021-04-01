@@ -4,60 +4,48 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     background-image: url(IMG/ocean-1867285_1920.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
 }
 
-#blocoCentral {
+#blocoGeral {
+    background-color: rgba(255, 255, 255, 0.11);
     width: 70vw;
     height: 80vh;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: rgba(255, 255, 255, 0.11);
-    border-radius: 40px;
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
     display: inline-block;
-}
-
-#imgLogo img {
-    width: 90vh;
-    margin-top: 14%;
-    margin-bottom: 14%;
-    margin-left: 18.5%;
-    margin-right: 18.5%;
-    opacity: 15%;
+    border-radius: 30px;
 }
 
 #menu {
-    margin-top: 4%;
-    margin-left: 5%;
+    width: 80%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    background-color: rgba(169, 169, 169, 0.192);
+    border-radius: 20px;
 }
 
-#menu li {
-    margin-left: 5%;
-    list-style-type: none;
+#menu li,
+a {
+    margin: 2%;
     display: inline-block;
-    border: none;
-}
-
-#menu a {
     text-decoration: none;
+    list-style-type: none;
     color: black;
-}
-
-#msgEntrada {
-    margin-top: 3%;
-    margin-left: 35%;
-    margin-right: 35%;
 }
 
 #sair {
     width: 6%;
     height: 20px;
-    margin-left: 62%;
+    margin-left: 70%;
     text-decoration: none;
     background-color: rgba(17, 17, 17, 0.459);
     border-radius: 30px;
@@ -74,4 +62,12 @@ body {
 #sair a {
     text-decoration: none;
     color: white;
+}
+
+#imgLogo {
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: inline-block;
 }

@@ -5,64 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href=" CSS/PaginaCadastro.css ">
+    <link rel="stylesheet" type="text/css" href="CSS/PaginaCadastro.css">
     <title>Cadastro</title>
 </head>
 
 <body>
-    <div id="blocoCentral">
-        <div class="#menu">
-            <li>
-                <a class="botao" href="PaginaConsulta.html">Consultar</a>
-            </li>
+    <nav>
+        <div id="blocoGeral">
 
-            <a class="botaoVoltar" href="PaginaPrincipal.html">Voltar</a>
-            <button id="sair">
-                <a href="PaginaLogin.html">Sair</a>
-            </button>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="PaginaConsulta.html">Consulta</a>
+                    </li>
+                    <li>
+                        <a href="PaginaPrincipal.html">Voltar</a>
+                    </li>
+                    <button id="sair">
+                        <a href="PaginaLogin.html">Sair</a>
+                    </button>
+                </ul>
+            </div>
+
+
+            <img id="imgLogo" src="CSS/IMG/topo_logo2.png" alt="Erro...">
+
+
+            <div id="form">
+                <form>
+                    <h2 id="infoPaciente">Informaçoes do Paciente</h2>
+                    <fieldset>
+                        <label>Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+
+                        <label>Data de Nascimento:</label>
+                        <input type="text" name="dataNascimento" id="dataNascimento">
+
+                        <select name="sexo" id="sexo">
+                            <option>Maculino</option>
+                            <option>feminino</option>
+                        </select>
+
+                        <br>
+
+                        <label>Bairro:</label>
+                        <input type="text" name="bairro" id="bairro">
+
+                        <label>Endereço:</label>
+                        <input type="text" name="endereco" id="endereco">
+
+                        <button id="botaoCadastrar">
+                            <a href="PaginaPrincipal.html">Cadastrar</a>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
         </div>
-
-        <div>
-            <i>Seja Bem-Vindo, *NOME DO USUARIO*.</i>
-        </div>
-
-        <div id="imagemLogo">
-            <img src="CSS/IMG/topo_logo2.png" alt="ERRO...">
-        </div>
-
-        <div id="formulario">
-            <form>
-                <fieldset>
-                    <label for="nome">Nome: </label>
-                    <input id="nome" type="text">
-
-                    <label for="nascimento">Data de Nascimento: </label>
-                    <input id="nascimento" type="text">
-
-                    <label for="sexo">Sexo:</label>
-                    <select name="sexo" id="sexo">
-                        <option>Masculino</option>
-                        <option>Feminino</option>
-                    </select>
-                    <br>
-                    <label for="bairro">Bairro: </label>
-                    <input id="bairro" type="text">
-
-                    <label for="endereco">Endereço: </label>
-                    <input id="endereco" type="text">
-
-                    <label for="telefone">Telefone: </label>
-                    <input id="telefone" type="text">
-
-                    <label for="CPF">CPF: </label>
-                    <input id="cpf" type="text">
-
-                    <br>
-                    <input type="Submit" id="submit" value="Cadastrar">
-                </fieldset>
-            </form>
-        </div>
-    </div>
+    </nav>
 </body>
 
 </html>
