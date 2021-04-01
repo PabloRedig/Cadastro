@@ -4,49 +4,64 @@
 }
 
 body {
-    background-image: url("IMG/ocean-1867285_1920.jpg");
+    background-image: url(IMG/ocean-1867285_1920.jpg);
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 #blocoCentral {
     width: 70vw;
     height: 80vh;
-    background-color: rgba(255, 255, 255, 0.11);
-    margin-left: 16.7%;
-    margin-top: 5%;
-    border-radius: 2em;
-    text-align: center;
-}
-
-menu {
+    margin-top: 4%;
+    margin-bottom: 4%;
     margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 40px;
+    display: inline-block;
 }
 
-li {
-    float: left;
+#imgLogo img {
+    width: 90vh;
+    margin-top: 14%;
+    margin-bottom: 14%;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+    opacity: 15%;
+}
+
+#menu {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#menu li {
+    margin-left: 5%;
     list-style-type: none;
-    margin-top: 2%;
-    margin-left: 3%;
+    display: inline-block;
+    border: none;
 }
 
-li a {
+#menu a {
+    text-decoration: none;
     color: black;
-    text-decoration: none;
 }
 
-#sair a {
-    text-decoration: none;
-    color: white;
+#msgEntrada {
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 #sair {
-    width: 55px;
+    width: 6%;
     height: 20px;
-    margin-left: 65%;
-    margin-top: 2%;
+    margin-left: 62%;
+    text-decoration: none;
     background-color: rgba(17, 17, 17, 0.459);
-    border-radius: 3em;
-    border: 0;
+    border-radius: 30px;
+    border: none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     outline: none;
@@ -56,19 +71,7 @@ li a {
     background-color: red;
 }
 
-.botao {
-    margin: 1em;
-}
-
-div i {
-    display: inline-block;
-    color: black;
-    margin-top: 5%;
-}
-
-img {
-    width: 90%;
-    margin-top: 4.5em;
-    margin-left: -1.5em;
-    opacity: 50%;
+#sair a {
+    text-decoration: none;
+    color: white;
 }
